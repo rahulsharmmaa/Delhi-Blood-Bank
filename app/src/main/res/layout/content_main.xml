@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+    tools:context="com.example.atif.delhibloodbank.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <VideoView
+                android:layout_width="match_parent"
+                android:layout_height="234dp"
+                android:id="@+id/vview" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="144dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <info.hoang8f.widget.FButton
+
+
+                    android:text="Donate Blood"
+                    android:layout_width="100dp"
+                    android:layout_height="125dp"
+                    android:id="@+id/donor"
+                    android:layout_weight="1"
+                    android:background="@color/fbutton_color_carrot"
+                    android:textColor="@android:color/background_light"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.18" />
+
+                <info.hoang8f.widget.FButton
+                    android:text="Blood Request"
+                    android:layout_width="100dp"
+                    android:id="@+id/request"
+                    android:layout_weight="1"
+                    android:background="@color/fbutton_color_green_sea"
+                    android:textColor="@android:color/background_light"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:layout_height="125dp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <info.hoang8f.widget.FButton
+                    android:text="Knowledge Centre"
+                    android:layout_width="100dp"
+                    android:layout_height="125dp"
+                    android:id="@+id/centre"
+                    android:layout_weight="1"
+                    android:background="@color/fbutton_color_sun_flower"
+                    android:textColor="@android:color/background_light"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.21" />
+
+                <info.hoang8f.widget.FButton
+                    android:text="Blood Bank"
+                    android:layout_width="100dp"
+                    android:id="@+id/bank"
+                    android:layout_weight="1"
+                    android:background="@color/fbutton_color_turquoise"
+                    android:textColor="@android:color/background_light"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:layout_height="125dp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6347</color>
+    <color name="colorPrimaryDark">#151614</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tomato">#ff6347</color>
+    <color name="tomato1">#47e3ff</color>
+
+    <color name="tomato2">#6347ff</color>
+    <color name="tomato3">#7aff8e</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+
+    <color name="red">#ef0c22</color>
+    <color name="green">#b7d28d</color>
+    <color name="blue">#b8f1ed</color>
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

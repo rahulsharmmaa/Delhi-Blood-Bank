@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.atif.delhibloodbank">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icc"
+        android:label="Blood to Support"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity
+            android:name=".MainActivity"
+            android:label="Blood to Support"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register" />
+        <activity
+            android:name=".launch"
+            android:label="\t\t\t\t\t\t\t\t\t\t\t\tDelhi Blood Bank"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".splash"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OnBoardingActivit" />
+        <activity android:name=".BloodBank" />
+        <activity android:name=".Moto" />
+        <activity android:name=".Bank" />
+        <activity android:name=".knowledge" />
+        <activity android:name=".APositive" />
+        <activity android:name=".BPositive" />
+        <activity android:name=".ANegative" />
+        <activity android:name=".BNegative" />
+        <activity android:name=".OPositive" />
+        <activity android:name=".ONegative" />
+        <activity android:name=".ABPositive" />
+        <activity android:name=".ABNegative"></activity>
+    </application>
+
+</manifest>

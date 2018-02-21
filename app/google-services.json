@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "292371756032",
+    "firebase_url": "https://delhibloodbank-d24c9.firebaseio.com",
+    "project_id": "delhibloodbank-d24c9",
+    "storage_bucket": "delhibloodbank-d24c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292371756032:android:172d91172aa42fa5",
+        "android_client_info": {
+          "package_name": "com.example.atif.delhibloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292371756032-ii09lplrekj0ecov69a6bi8i4ph97pqi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atif.delhibloodbank",
+            "certificate_hash": "9ffe7f4715b1177335278bf4f6b3111418071d23"
+          }
+        },
+        {
+          "client_id": "292371756032-t07gbb3jer30tam0j97msvtoi6ss5857.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVhZ3hSpFKOnmJy3Jq8ql2CI2Iyv0Pvdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292371756032-t07gbb3jer30tam0j97msvtoi6ss5857.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

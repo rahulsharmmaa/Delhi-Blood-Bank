@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Donate"
+            android:icon="@drawable/spot_mask"
+            android:title="Donate Blood" />
+        <item
+            android:id="@+id/request"
+            android:icon="@drawable/spot_mask"
+            android:title="Request for Blood" />
+        <item
+            android:id="@+id/bank"
+            android:icon="@drawable/spot_mask"
+            android:title="Blood Bank" />
+        <item
+            android:id="@+id/know"
+            android:icon="@drawable/spot_mask"
+            android:title="Knowledge Center" />
+    </group>
+
+    <item
+        android:id="@+id/hospital"
+        android:icon="@drawable/spot_mask"
+        android:title="Nearby Hospitals" />
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
